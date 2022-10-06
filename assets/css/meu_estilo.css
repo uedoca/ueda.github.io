@@ -1,0 +1,14 @@
+nav {
+    height: 50px;
+    background-color: #484848;
+    color: #c8c8c8;
+}
+
+nav li{
+    display: flex;
+    align-items: flex-end;
+}
+
+a{
+    text-decoration: none;
+}
