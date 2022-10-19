@@ -1,14 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 50px;
+}
 nav {
     height: 50px;
-    background-color: #484848;
+    background-color: #9e5c5c;
     color: #c8c8c8;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+nav li{
+    padding: 10px;
 }
 
-nav li{
-    display: flex;
-    align-items: flex-end;
-}
 
 a{
     text-decoration: none;
+    color: rgb(155, 124, 129);
+}
+a:hover{
+    text-decoration: none;
+    color: pink;
+}
+section{
+    min-height: 480px;
+    background-color: #d88989;
+    color: rgb(221, 191, 134);
+    padding: 10px;
+    border: 2px dotted #9f71cf;
+}
+
+section:hover{
+    background-color: #915757;
+    color: rgb(196, 167, 114);
+}
+.comando-git{
+    padding: 5px;
+    font-size: 3px solid #d86767;
+    background-color: #915757;
+    color:#484848;
+}
+p{
+    padding: 5px;
+}
+.conteudo{
+    margin-top: 50px;
 }
