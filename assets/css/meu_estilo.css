@@ -5,7 +5,7 @@
 }
 nav {
     height: 50px;
-    background-color: #9e5c5c;
+    background-color: #8ed5eb;
     color: #c8c8c8;
     display: flex;
     align-items: center;
@@ -24,28 +24,28 @@ nav li{
 
 a{
     text-decoration: none;
-    color: rgb(155, 124, 129);
+    color: rgb(119, 152, 161);
 }
 a:hover{
     text-decoration: none;
-    color: pink;
+    color: rgb(159, 176, 211);
 }
 section{
     min-height: 480px;
-    background-color: #d88989;
-    color: rgb(221, 191, 134);
+    background-color: #9dd8eb;
+    color: #484848;
     padding: 10px;
-    border: 2px dotted #9f71cf;
+    border: 2px solid #618e99;
 }
 
 section:hover{
-    background-color: #915757;
-    color: rgb(196, 167, 114);
+    background-color: #78a1dd;
+    color: rgb(114, 130, 182);
 }
 .comando-git{
     padding: 5px;
-    font-size: 3px solid #d86767;
-    background-color: #915757;
+    font-size: 3px solid #527392;
+    background-color: #78a9bd;
     color:#484848;
 }
 p{
@@ -53,4 +53,63 @@ p{
 }
 .conteudo{
     margin-top: 50px;
+}
+#redes_sociais{
+
+    display:flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+}
+
+
+.redes_sociais{
+
+    height: 300px;
+
+    width: 300px;
+
+    border: #a793ff solid 5px;
+
+    margin: 10px;
+
+}
+
+
+.rede_social>img{
+    width: 100%;
+    height: 80%;
+}
+
+#projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+.Projetos{
+    height: 300px;
+    width: 300px;
+    border: #6588a5 solid 5px;
+    margin: 10px;
+}
+.projeto{
+    height: 300px;
+    width: 300px;
+    border: #6588a5 solid 5px;
+    margin: 10px;
+}
+.projeto>img{
+    width: 100%;
+    height: 80%;
+}
+.labels span{
+    color: white !important;
+    background-color: #7c5792;
+    border-radius: 10px;
+    padding: 2px 5px;
 }
