@@ -39,8 +39,8 @@ section{
 }
 
 section:hover{
-    background-color: #78a1dd;
-    color: rgb(114, 130, 182);
+    background-color:#586a91;
+    color: rgb(157, 166, 172);
 }
 .comando-git{
     padding: 5px;
@@ -113,3 +113,10 @@ p{
     border-radius: 10px;
     padding: 2px 5px;
 }
+footer{
+    padding: 5px;
+    font-size: 3px solid #527392;
+    background-color: #78a9bd;
+    color:#484848;
+}
+   
